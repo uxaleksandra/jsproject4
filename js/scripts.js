@@ -1,6 +1,6 @@
 var a = prompt('Wpisz wartosc a');
-	b = prompt('Wpisz wartosc b');
-	score = (a*a) + (2 * a * b) - (b*b);
+var	b = prompt('Wpisz wartosc b');
+var	score = (a*a) + (2 * a * b) - (b*b);
 
 console.log ('a: ' + a + ' b: ' + b + ' wynik: ' + score);
 if (score>0) {
